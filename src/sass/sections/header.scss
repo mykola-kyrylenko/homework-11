@@ -1,0 +1,59 @@
+.header {
+  background-image: linear-gradient(to top,
+      rgba(252, 227, 138, 0.8) 0%,
+      rgba(243, 129, 129, 0.8) 100%),
+    url(../images/header-picture@2x-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 230px;
+
+  &__nav,
+  &__navigation,
+  &__navigation-list,
+  &__icon,
+  &__icon-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__navigation-item,
+  &__icon-item:not(:last-child) {
+    padding-right: 45px;
+  }
+
+  &__welcome {
+    text-align: center;
+    width: 820px;
+    padding-top: 170px;
+  }
+
+  &__welcome-link {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    height: 42px;
+    border: 3px solid;
+    border-color: rgba(255, 255, 255, 1);
+    margin-top: 126px;
+  }
+
+  &__icon-button {
+    width: 18px;
+    height: 15px;
+    fill: $fill;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  &__nav {
+    padding-top: 26px;
+  }
+
+  // &__welcome-title {
+  //   margin-top: 40px;
+  // }
+}

@@ -1,0 +1,89 @@
+.title {
+  font-size: 30px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.header__logo-link {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header__welcome-title {
+  font-size: 150px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 0.933;
+  letter-spacing: -0.02em;
+}
+
+.header__navigation-link {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text {
+  font-family: $third-font;
+  font-size: 24px;
+  line-height: 1.2;
+  color: rgba(51, 51, 51, 1);
+}
+
+.header__welcome-text {
+  font-size: 72px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.link {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.services__list-link {
+  font-size: 14px;
+  color: rgba(51, 51, 51, 1);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.services__list-text,
+.lorem-text,
+.team__list-text--proffesion {
+  font-size: 15px;
+  font-family: $second-font;
+  color: rgba(153, 153, 153, 1);
+  line-height: 1.6;
+}
+
+.team__name {
+  font-size: 14px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.team__list-text--proffesion {
+  font-style: italic;
+}
+
+.footer-text,
+.footer__creator-link {
+  font-size: 14px;
+  color: rgba(51, 51, 51, 1);
+  line-height: 1.2;
+}
+
+.footer__creator-link {
+  color: rgba(243, 129, 129, 1);
+}

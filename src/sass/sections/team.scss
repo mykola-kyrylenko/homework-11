@@ -1,0 +1,128 @@
+.team {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 80px;
+
+  &__lorem {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 44px;
+  }
+
+  &__list {
+    margin-top: 90px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__list-item {
+    display: block;
+    width: 380px;
+    height: 470px;
+    position: relative;
+  }
+
+  &__social-list-item-link--icon {
+    width: 26px;
+    height: 26px;
+    fill: rgba(243, 129, 129, 1);
+    transform: scale(1);
+    cursor: pointer;
+  }
+
+  &__text {
+    margin-top: 90px;
+  }
+
+  &__title::after {
+    content: "";
+    background-color: rgba(243, 129, 129, 1);
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    width: 60px;
+    height: 3px;
+  }
+
+  &__name {
+    padding-top: 30px;
+  }
+
+  &__list-text--proffesion {
+    padding-top: 10px;
+    margin-bottom: 84px;
+  }
+
+  &__social-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__card {
+    position: relative;
+  }
+
+  &__list-overlay {
+    width: 380px;
+  }
+
+  &__social-item {
+    width: 56px;
+    height: 56px;
+  }
+
+  &__overlay {
+    background-image: linear-gradient(360deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    left: 180px;
+    top: 225px;
+    transform: translateX(-50%) translateY(-50%);
+    width: 380px;
+    height: 470px;
+    box-shadow: 10px 10px 0px rgba(148, 225, 211, 1);
+    opacity: 0;
+    transition: all 0.2s linear;
+    position: absolute;
+  }
+
+  &__list-item:hover &__list-photo img {
+    transform: translate(-10px, -10px);
+    transition: all 0.2s linear;
+  }
+
+  &__social-link:hover {
+    background-color: rgba(243, 129, 129, 1);
+  }
+
+  &__social-link:hover &__social-list-item-link--icon {
+    fill: $fill;
+  }
+
+  &__social-link {
+    transition: all 0.2s linear;
+    width: 55px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(252, 227, 138, 1);
+    margin-right: 1px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__list-item:hover &__overlay {
+    opacity: 1;
+  }
+}
